@@ -1,0 +1,11 @@
+{
+    "name": "grow my day",
+    "version": "1.0",
+    "description": "A to-do list built into your browser.",
+    "permissions": ["declarativeContent", "storage"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "grow my day"
+    },
+    "manifest_version": 3
+}

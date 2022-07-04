@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
+:root {
+    --sage: rgba(173,226,188);
+}
+
+html {
+    width: 340px;
+    height: 580px;
+}
+
+body {
+    background-color: var(--sage);
+    font-family: 'Arima', cursive;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+}
+
+#title-name {
+    margin-top: -2.2cm;
+    margin-bottom: 0.2cm;
+}
+
+
+#title-border {
+ width: 340px;
+ margin-top: -0.5cm;
+ margin-left: -0.2cm;
+}
+  
+p {
+    display: inline-block;
+}
+
+#task-form {
+    display: flex;
+}
+
+#task-input {
+    flex: 1 1 0%;
+    padding: 1rem;
+    height: 6px;
+    margin-right: 0.5rem;
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Arima', cursive;
+    color: black;
+    font-weight: 650;
+    border-bottom: 1px solid black;
+}
+
+#task-input:focus {
+    outline: none;
+}
+
+#task-input::placeholder {
+    color: black;
+    font-weight: 650;
+    font-size: 15px;
+}
+
+#submit-button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 25px;
+    width: 25px;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 rgb(255, 255, 255);
+    margin-top: 13px;
+    opacity: 0.9;
+}
+
+#submit-button i {
+    transition: 0.3s;
+}
+
+#submit-button:hover {
+    background-color: white;
+    color: var(--sage);
+    opacity: 0.8;
+}
+
+#submit-button:active {
+    opacity: 0.5;
+}
+
+#complete-button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 25px;
+    width: 25px;
+    border-radius: 1rem;
+    margin-top: 13px;
+    opacity: 0.9;
+}
+
+#complete-button i {
+    transition: 0.3s;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#complete-button:hover {
+    background-color: white;
+    color: var(--sage);
+    opacity: 0.8;
+}
+
+#complete-button:active {
+    opacity: 0.5;
+}
+
+#delete-button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-top: 13px;
+    margin-right: -1cm;
+    margin-left: 0.2cm;
+    opacity: 0.9;
+}
+
+#delete-button i {
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#delete-button:hover {
+    background-color: white;
+    color: var(--sage);
+    opacity: 0.8;
+}
+
+#delete-button:active {
+    opacity: 0.5;
+}
+
+
+.task-list {
+    max-height: 100px;
+    margin-top: 0.25cm;
+}
+
+.task {
+    flex: 1 1 0%;
+}
+
+.text {
+    flex: 1 1 0%;
+    width: 69%;
+    padding: 1rem;
+    margin-right: 0.5rem;
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Arima', cursive;
+    color: black;
+    font-weight: 650;
+    font-size: 14.5px;
+    height: 6px;
+    border-bottom: 1px dotted black;
+}
+
+.text:focus {
+    outline: none;
+}
